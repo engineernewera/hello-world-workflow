@@ -3,7 +3,7 @@ name: Hello-world-workflow
 on: 
   pull_request:
     branches:
-      - feature-branch
+      - feature
 
 jobs:
   hello-world:
