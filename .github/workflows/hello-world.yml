@@ -1,0 +1,14 @@
+name: Hello-world-workflow
+
+on: push
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Hello World
+        run:echo "Hello World" && sleep 30
+      - name: Print ibaduu
+        run: echo "Hello Haya k baba" && sleep 10
+
