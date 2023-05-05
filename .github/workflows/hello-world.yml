@@ -1,7 +1,7 @@
 name: Hello-world-workflow
 
 on: 
-  push:
+  pull_request:
     branches:
       - feature
 
@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Print Hello World
-        run: echo "Hello World" && sleep 30
+        run: echo "Hello World" && sleep 20
       - name: Print ibaduu
         run: echo "Hello Haya k baba" && sleep 10
 
